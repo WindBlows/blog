@@ -2,10 +2,10 @@
 namespace app\home\controller;
 use think\Controller;
 
-class about extends Controller
+class contact extends Controller
 {
     public function index()
     {
-        return $this->fetch('about');
+        return $this->fetch('contact');
     }
 }
