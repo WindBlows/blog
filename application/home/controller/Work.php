@@ -6,6 +6,6 @@ class work extends Controller
 {
     public function index()
     {
-        return $this->fetch('work');
+        return view('work');
     }
 }

@@ -6,6 +6,6 @@ class contact extends Controller
 {
     public function index()
     {
-        return $this->fetch('contact');
+        return view('contact');
     }
 }

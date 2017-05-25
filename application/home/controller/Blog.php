@@ -6,6 +6,6 @@ class blog extends Controller
 {
     public function index()
     {
-        return $this->fetch('blog');
+        return view('blog');
     }
 }
