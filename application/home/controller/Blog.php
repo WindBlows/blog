@@ -2,7 +2,7 @@
 namespace app\home\controller;
 use think\Controller;
 
-class blog extends Controller
+class Blog extends Controller
 {
     public function index()
     {

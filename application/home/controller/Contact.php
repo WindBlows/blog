@@ -2,7 +2,7 @@
 namespace app\home\controller;
 use think\Controller;
 
-class contact extends Controller
+class Contact extends Controller
 {
     public function index()
     {
