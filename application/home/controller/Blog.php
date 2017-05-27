@@ -8,4 +8,9 @@ class Blog extends Controller
     {
         return view('blog');
     }
+
+    public function detail()
+    {
+        return view('detail');
+    }
 }
