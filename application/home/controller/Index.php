@@ -6,7 +6,7 @@ class Index extends Controller
 {
     public function index()
     {
-        var_dump(Config::get());
+        //var_dump(Config::get());
         return view('index');
     }
 }
